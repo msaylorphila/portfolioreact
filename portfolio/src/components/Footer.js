@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
     return(
         <>
-        <footer className="footer">
+        <footer className="footer fixed-bottom">
             <nav>
 
     <ul class="navbar-nav mr-auto d-flex flex-row">

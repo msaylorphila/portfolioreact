@@ -1,12 +1,12 @@
-/* background-color: #F4FEC1;
-#D9F9A5
-#D2D68D
-#81726A
-#68534D */
 
+/* #052F5F dark blue
+#005377 lighter blue
+#06A77D green
+#D5C67A lighter green
+#F1A208 yelloworange */
 
 a:hover, .active {
-    background-color: #F4FEC1;
+    color: #052F5F;
   }
 
 .icon {
