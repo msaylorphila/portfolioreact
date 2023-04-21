@@ -6,13 +6,22 @@
 #F1A208 yelloworange */
 nav {
     background-color: #06A77D;
+    font-family: 'Lobster Two', cursive;
     color: #D5C67A;
     font-size: 150%;
 }
+.aboutMe, .contact-form {
+    font-family: 'Lobster Two', cursive;
+    font-size:larger
 
+}
 #MS {
     color: #F1A208;
-    font-size: 175%;
+    font-size: 175%;font-family: 'Pinyon Script', cursive;
+
+}
+.MSaylor {
+    font-family: 'Pinyon Script', cursive;
 }
 
 body {
@@ -44,5 +53,5 @@ footer {
 
 .me {
     max-width: 80%;
-    border-radius: 20%;
+    border-radius: 50%;
 }

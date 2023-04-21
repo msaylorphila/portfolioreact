@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
     return(
-        <form className="w-50">
+        <form className="w-50 contact-form">
         <div className="form-group">
     <label for="nameInput">Name</label>
     <input type="text" className="form-control" id="nameInput" placeholder="Name"></input>

@@ -10,7 +10,7 @@ function Navbar({ currentPage, handlePageChange }) {
           className={
             currentPage === "MSaylor"
               ? "nav-link active MSaylor"
-              : "nav-link"
+              : "nav-link MSaylor"
           }
         >
           <span id="MS">MS</span>aylor
@@ -26,9 +26,8 @@ function Navbar({ currentPage, handlePageChange }) {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <aside className="navbar-fixed-left">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
+        <div className="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <a
                 href="#aboutme"
@@ -75,7 +74,6 @@ function Navbar({ currentPage, handlePageChange }) {
             </li>
           </ul>
         </div>
-        </aside>
       </nav>
     </header>
   );
