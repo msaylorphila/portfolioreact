@@ -1,0 +1,17 @@
+a:hover, .active {
+    background-color: yellow;
+  }
+
+.icon {
+    max-width: 15%;
+    
+}
+
+.github{
+   max-width: 20%; 
+}
+
+footer {
+    margin-bottom: 0;
+    
+}
