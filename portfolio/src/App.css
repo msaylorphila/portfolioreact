@@ -1,5 +1,12 @@
+/* background-color: #F4FEC1;
+#D9F9A5
+#D2D68D
+#81726A
+#68534D */
+
+
 a:hover, .active {
-    background-color: yellow;
+    background-color: #F4FEC1;
   }
 
 .icon {
@@ -14,4 +21,9 @@ a:hover, .active {
 footer {
     margin-bottom: 0;
     
+}
+
+.me {
+    max-width: 80%;
+    border-radius: 20%;
 }
