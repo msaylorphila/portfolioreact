@@ -2,11 +2,30 @@
 /* #052F5F dark blue
 #005377 lighter blue
 #06A77D green
-#D5C67A lighter green
+#D5C67A lighter yellow
 #F1A208 yelloworange */
+nav {
+    background-color: #06A77D;
+    color: #D5C67A;
+    font-size: 150%;
+}
+
+#MS {
+    color: #F1A208;
+    font-size: 175%;
+}
+
+body {
+    background-color: #06A77D;
+    color: #D5C67A
+}
+
+.nav-link{
+    color: #D5C67A;
+}
 
 a:hover, .active {
-    color: #052F5F;
+    color: #005377;
   }
 
 .icon {

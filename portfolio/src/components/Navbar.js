@@ -3,17 +3,17 @@ import React from "react";
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg">
         <a
           href="#MSaylor"
           onClick={() => handlePageChange("MSaylor")}
           className={
             currentPage === "MSaylor"
-              ? "nav-link active navbar-brand"
+              ? "nav-link active MSaylor"
               : "nav-link"
           }
         >
-          MSaylor
+          <span id="MS">MS</span>aylor
         </a>
         <button
           className="navbar-toggler"
@@ -26,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
+        <aside className="navbar-fixed-left">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
@@ -75,6 +75,7 @@ function Navbar({ currentPage, handlePageChange }) {
             </li>
           </ul>
         </div>
+        </aside>
       </nav>
     </header>
   );
