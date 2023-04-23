@@ -10,8 +10,8 @@ function Portfolio() {
             src="../../images/bone-screenshot.png"
             alt="Card"
           ></img>
-          <div class="card-body">
-            <p class="card-text">
+          <div className="card-body">
+            <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
@@ -49,8 +49,8 @@ function Portfolio() {
             src="../../images/horiseon-screenshot.png"
             alt="horiseon"
           ></img>
-          <div class="card-body">
-            <p class="card-text">
+          <div className="card-body">
+            <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
@@ -90,8 +90,8 @@ function Portfolio() {
             src="../../images/mvp-screenshot.png"
             alt="mvp"
           ></img>
-          <div class="card-body">
-            <p class="card-text">
+          <div className="card-body">
+            <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
@@ -125,8 +125,8 @@ function Portfolio() {
             src="../../images/vilca-screenshot.png"
             alt="vilca"
           ></img>
-          <div class="card-body">
-            <p class="card-text">
+          <div className="card-body">
+            <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
@@ -160,8 +160,8 @@ function Portfolio() {
             src="../../images/workday-screenshot.png"
             alt="workday"
           ></img>
-          <div class="card-body">
-            <p class="card-text">
+          <div className="card-body">
+            <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
@@ -201,8 +201,8 @@ function Portfolio() {
             src="../../images/weather-screenshot.png"
             alt="weather"
           ></img>
-          <div class="card-body">
-            <p class="card-text">
+          <div className="card-body">
+            <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
