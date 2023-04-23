@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolioreact/static/css/main.e213236c.css",
-    "main.js": "/portfolioreact/static/js/main.dc1b2aa8.js",
+    "main.css": "/portfolioreact/static/css/main.3e20029c.css",
+    "main.js": "/portfolioreact/static/js/main.7add974d.js",
+    "static/media/horiseon-screenshot.png": "/portfolioreact/static/media/horiseon-screenshot.54de603189f97d2a26be.png",
+    "static/media/bone-screenshot.png": "/portfolioreact/static/media/bone-screenshot.842269410ef8e452773e.png",
+    "static/media/vilca-screenshot.png": "/portfolioreact/static/media/vilca-screenshot.a9decfebf55ce8edd7ec.png",
+    "static/media/workday-screenshot.png": "/portfolioreact/static/media/workday-screenshot.3c5402108790a709e823.png",
+    "static/media/weather-screenshot.png": "/portfolioreact/static/media/weather-screenshot.4acd457268388296589e.png",
+    "static/media/mvp-screenshot.png": "/portfolioreact/static/media/mvp-screenshot.b7b3f58ca2cbbeb9d580.png",
+    "static/media/profile-picture.jpeg": "/portfolioreact/static/media/profile-picture.ad6d85f16476640227ed.jpeg",
+    "static/media/linkedin-icon.png": "/portfolioreact/static/media/linkedin-icon.b63ce49ba84ec8c2d939.png",
+    "static/media/github-icon.png": "/portfolioreact/static/media/github-icon.fabe9645503e40bb55bb.png",
+    "static/media/leetcode.png": "/portfolioreact/static/media/leetcode.dfb398972da1a2af81a2.png",
     "index.html": "/portfolioreact/index.html",
-    "main.e213236c.css.map": "/portfolioreact/static/css/main.e213236c.css.map",
-    "main.dc1b2aa8.js.map": "/portfolioreact/static/js/main.dc1b2aa8.js.map"
+    "main.3e20029c.css.map": "/portfolioreact/static/css/main.3e20029c.css.map",
+    "main.7add974d.js.map": "/portfolioreact/static/js/main.7add974d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e213236c.css",
-    "static/js/main.dc1b2aa8.js"
+    "static/css/main.3e20029c.css",
+    "static/js/main.7add974d.js"
   ]
 }
