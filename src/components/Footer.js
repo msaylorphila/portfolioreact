@@ -1,5 +1,4 @@
 import React from "react";
-// import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
 
 function Footer() {
   return (
@@ -11,7 +10,7 @@ function Footer() {
               <a className="nav-link" href="https://github.com/msaylorphila">
                 <img
                   className="github"
-                  src="../../images/github-icon.png"
+                  src={require("../images/github-icon.png")}
                   alt="github"
                 ></img>
                 <span className="sr-only"></span>
@@ -24,7 +23,7 @@ function Footer() {
               >
                 <img
                   className="icon"
-                  src="../../images/linkedin-icon.png"
+                  src={require("../images/linkedin-icon.png")}
                   alt="linkedin"
                 ></img>
                 <span className="sr-only"></span>
@@ -34,7 +33,7 @@ function Footer() {
               <a className="nav-link" href="https://leetcode.com/msaylorphila/">
                 <img
                   className="icon"
-                  src="../../images/leetcode.png"
+                  src={require("../images/leetcode.png")}
                   alt="leetcode"
                 ></img>
                 <span className="sr-only"></span>

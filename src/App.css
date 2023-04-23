@@ -47,8 +47,10 @@ a:hover, .active {
 }
 
 footer {
-    margin-bottom: 0;
-    
+    margin-bottom: 0px;
+    padding: 0;
+   
+  
 }
 footer nav ul {
     display: flex;
@@ -63,3 +65,4 @@ footer li {
     max-width: 80%;
     border-radius: 50%;
 }
+

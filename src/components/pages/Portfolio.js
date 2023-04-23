@@ -7,7 +7,7 @@ function Portfolio() {
         <div className="card col-lg-4">
           <img
             className="card-img-top"
-            src="../../images/bone-screenshot.png"
+            src={require("../../images/bone-screenshot.png")}
             alt="Card"
           ></img>
           <div className="card-body">
@@ -46,7 +46,7 @@ function Portfolio() {
         <div className="card col-lg-4">
           <img
             className="."
-            src="../../images/horiseon-screenshot.png"
+            src={require("../../images/horiseon-screenshot.png")}
             alt="horiseon"
           ></img>
           <div className="card-body">
@@ -87,7 +87,7 @@ function Portfolio() {
         <div className="card col-lg-4">
           <img
             className="."
-            src="../../images/mvp-screenshot.png"
+            src={require("../../images/mvp-screenshot.png")}
             alt="mvp"
           ></img>
           <div className="card-body">
@@ -122,7 +122,7 @@ function Portfolio() {
         <div className="card col-lg-4">
           <img
             className="."
-            src="../../images/vilca-screenshot.png"
+            src={require("../../images/vilca-screenshot.png")}
             alt="vilca"
           ></img>
           <div className="card-body">
@@ -157,7 +157,7 @@ function Portfolio() {
         <div className="card col-lg-4">
           <img
             className="."
-            src="../../images/workday-screenshot.png"
+            src={require("../../images/workday-screenshot.png")}
             alt="workday"
           ></img>
           <div className="card-body">
@@ -198,7 +198,7 @@ function Portfolio() {
         <div className="card col-lg-4">
           <img
             className="."
-            src="../../images/weather-screenshot.png"
+            src={require("../../images/weather-screenshot.png")}
             alt="weather"
           ></img>
           <div className="card-body">

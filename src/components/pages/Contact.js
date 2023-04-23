@@ -20,16 +20,16 @@ function Contact() {
         <form onSubmit={validateInputs} className="w-50 contact-form">
         <div className="form-group">
     <label htmlFor="nameInput">Name</label>
-    <input type="text" value={name} onChange={e=>setName(e.target.value)}/>
+    <input type="text" className="form-control" value={name} onChange={e=>setName(e.target.value)}/>
   </div>
   <div className="form-group">
     <label htmlFor="emailInput">Email address</label>
-    <input type="email" value={email} onChange={e=>setEmail(e.target.value)} id="emailInput" aria-describedby="emailHelp" placeholder="Enter email"></input>
+    <input type="email" className="form-control" value={email} onChange={e=>setEmail(e.target.value)} id="emailInput" aria-describedby="emailHelp" placeholder="Enter email"></input>
     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div className="form-group">
     <label htmlFor="messageInput">Message</label>
-    <input type="text" value={message} onChange={e=>setMessage(e.target.value)}  id="messageInput" placeholder="Message"></input>
+    <input type="text" className="form-control" value={message} onChange={e=>setMessage(e.target.value)}  id="messageInput" placeholder="Message"></input>
   </div>
   <button type="submit" className="btn btn-primary" >Submit</button>
   <p>{errMessage}</p>

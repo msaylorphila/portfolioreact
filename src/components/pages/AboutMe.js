@@ -4,7 +4,7 @@ function AboutMe() {
     return(
         <div className="aboutMe d-flex">
         <div>
-        <img className="me" src="../../images/profile-picture.jpeg" alt="me"></img>
+        <img className="me" src={require("../../images/profile-picture.jpeg")} alt="me"></img>
         </div>
         <div className="w-75">
         <p className="">MERN stack web developer excited to pursue my new career as a software engineer while furthering my knowledge and honing my skills. I earned my training with the University of Pennsylvania through their Full Stack LPS coding bootcamp. I am a self-starting highly organized problem solver who works well collaborating with others. I excel under pressure and am passionate about developing responsive applications while helping others along the way. My strengths include creativity, teamwork, and being detail oriented.</p>
