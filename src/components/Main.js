@@ -20,10 +20,10 @@ export default function Main() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    // if (currentPage === 'Contact') {
+    if (currentPage === 'Contact') {
       return <Contact />;
-    // }
-    // return <Resume />;
+    }
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

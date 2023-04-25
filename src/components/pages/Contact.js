@@ -5,17 +5,25 @@ function Contact() {
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
     const [errMessage, setErrMessage] = useState("")
+  
 
     const validateInputs = (event) => {
         event.preventDefault()
         console.log("validating inputs")
-        if(message.length < 50){
-            setErrMessage("Please enter a message longer than 50 characters")
+        if(message.length < 20){
+            setErrMessage("Please enter a message longer than 20 characters")
             return
+        } else if (!name.length || !email.length) {
+          setErrMessage("Please fill out all fields")
+          return
         }
         setErrMessage("")
         setErrMessage("Your message was sent!")
-    }
+        setName('')
+        setEmail('')
+        setMessage('')
+    };
+
     return(
         <form onSubmit={validateInputs} className="w-50 contact-form">
         <div className="form-group">

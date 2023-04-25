@@ -52,7 +52,7 @@ function Navbar({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
-                href="https://docs.google.com/document/d/1HI__JH_vX0-Pu2UJgHPSB4-ATW2cMafHkTGVG2BkVPo/edit?usp=sharing"
+                href="#resume"
                 onClick={() => handlePageChange("Resume")}
                 className={
                   currentPage === "Resume" ? "nav-link active" : "nav-link"
