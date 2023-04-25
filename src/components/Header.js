@@ -13,7 +13,7 @@ function Header({ currentPage, handlePageChange }) {
               : "nav-link MSaylor"
           }
         >
-          <span id="MS">MS</span>aylor
+          <span className="MS">MS</span>aylor
         </a>
         <button
           className="navbar-toggler"

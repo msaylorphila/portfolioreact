@@ -17,17 +17,19 @@ nav {
 .card {
     margin: 3%;
 }
-a {
+a, .orange {
     color: #F1A208;
 }
 
-.aboutMe, .contact-form, h2, a {
+
+
+.aboutMe, .contact-form, h2, a, p {
     font-family: 'Lobster Two', cursive;
     font-size:larger;
 
 }
 
-#MS {
+.MS {
     color: #F1A208;
     font-size: 175%;font-family: 'Pinyon Script', cursive;
 
