@@ -199,20 +199,20 @@ function Portfolio() {
           ></img>
           <div className="card-body">
             <h2 className="card-text">
-              Weather App
+              Weather Dashboard
             </h2>
             <a
               href="https://github.com/msaylorphila/msaylor-weatherapp-mod06"
               alt="weatherapp github"
             >
-              Weather App Github
+              Weather Dashboard Github
             </a>
             <br></br>
             <a
               href="https://msaylorphila.github.io/msaylor-weatherapp-mod06/"
               alt="deployed weatherapp"
             >
-              Deployed Weather App
+              Deployed Weather Dashboard
             </a>
           </div>
         </div>
