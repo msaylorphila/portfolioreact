@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioreact/static/css/main.3e20029c.css",
-    "main.js": "/portfolioreact/static/js/main.6d77daf7.js",
+    "main.css": "/portfolioreact/static/css/main.b62c4265.css",
+    "main.js": "/portfolioreact/static/js/main.98911a65.js",
     "static/media/horiseon-screenshot.png": "/portfolioreact/static/media/horiseon-screenshot.54de603189f97d2a26be.png",
     "static/media/bone-screenshot.png": "/portfolioreact/static/media/bone-screenshot.842269410ef8e452773e.png",
     "static/media/vilca-screenshot.png": "/portfolioreact/static/media/vilca-screenshot.a9decfebf55ce8edd7ec.png",
@@ -13,11 +13,11 @@
     "static/media/github-icon.png": "/portfolioreact/static/media/github-icon.fabe9645503e40bb55bb.png",
     "static/media/leetcode.png": "/portfolioreact/static/media/leetcode.dfb398972da1a2af81a2.png",
     "index.html": "/portfolioreact/index.html",
-    "main.3e20029c.css.map": "/portfolioreact/static/css/main.3e20029c.css.map",
-    "main.6d77daf7.js.map": "/portfolioreact/static/js/main.6d77daf7.js.map"
+    "main.b62c4265.css.map": "/portfolioreact/static/css/main.b62c4265.css.map",
+    "main.98911a65.js.map": "/portfolioreact/static/js/main.98911a65.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e20029c.css",
-    "static/js/main.6d77daf7.js"
+    "static/css/main.b62c4265.css",
+    "static/js/main.98911a65.js"
   ]
 }
