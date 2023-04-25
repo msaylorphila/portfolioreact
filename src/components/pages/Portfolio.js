@@ -3,7 +3,8 @@ import React from "react";
 function Portfolio() {
   return (
     <>
-      <div className="row w-75">
+    <div className="card-container">
+      <div className="row mx-auto w-75">
         <div className="card col-lg-4">
           <img
             className="card-img-top"
@@ -11,10 +12,9 @@ function Portfolio() {
             alt="Card"
           ></img>
           <div className="card-body">
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h2 className="card-text">
+              A Bone to Pick
+            </h2>
             <a
               href="https://github.com/msaylorphila/A-Bone-To-Pick"
               alt="a bone to pick github"
@@ -50,10 +50,9 @@ function Portfolio() {
             alt="horiseon"
           ></img>
           <div className="card-body">
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h2 className="card-text">
+              Horiseon
+            </h2>
             <a
               href="https://github.com/msaylorphila/msaylor-accessibility-mod1"
               alt="accessibility horiseon github"
@@ -91,10 +90,9 @@ function Portfolio() {
             alt="mvp"
           ></img>
           <div className="card-body">
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h2 className="card-text">
+              Model-View-Controller Techblog
+            </h2>
             <a
               href="https://github.com/msaylorphila/model-view-controller-techblog"
               alt="model view controller techblog"
@@ -126,10 +124,9 @@ function Portfolio() {
             alt="vilca"
           ></img>
           <div className="card-body">
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h2 className="card-text">
+              Vilca Events
+            </h2>
             <a
               href="https://github.com/msaylorphila/Vilca--Events"
               alt="Vilcabomba Events"
@@ -161,10 +158,9 @@ function Portfolio() {
             alt="workday"
           ></img>
           <div className="card-body">
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h2 className="card-text">
+              Workday Planner
+            </h2>
             <a
               href="https://github.com/msaylorphila/msaylor-dailyplanner-mod05"
               alt="workday planned github"
@@ -202,10 +198,9 @@ function Portfolio() {
             alt="weather"
           ></img>
           <div className="card-body">
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h2 className="card-text">
+              Weather App
+            </h2>
             <a
               href="https://github.com/msaylorphila/msaylor-weatherapp-mod06"
               alt="weatherapp github"
@@ -235,6 +230,7 @@ function Portfolio() {
       >
         Deployed Weather App
       </a> */}
+      </div>
       </div>
     </>
   );

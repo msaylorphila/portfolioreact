@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import Navbar from './Navbar';
+import Header from './Header';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -30,7 +30,7 @@ export default function Main() {
 
   return (
     <div>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );

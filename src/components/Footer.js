@@ -3,13 +3,13 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer className="footer fixed-bottom">
+      <footer className="footer">
         <nav>
-          <ul>
+          <ul className="d-flex justify-content-center">
             <li>
               <a className="nav-link" href="https://github.com/msaylorphila">
                 <img
-                  className="github"
+                  className="icon"
                   src={require("../images/github-icon.png")}
                   alt="github"
                 ></img>

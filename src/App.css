@@ -11,11 +11,22 @@ nav {
     color: #D5C67A;
     font-size: 150%;
 }
-.aboutMe, .contact-form {
+.card-container {
+    align-items: center;
+}
+.card {
+    margin: 3%;
+}
+a {
+    color: #F1A208;
+}
+
+.aboutMe, .contact-form, h2, a {
     font-family: 'Lobster Two', cursive;
-    font-size:larger
+    font-size:larger;
 
 }
+
 #MS {
     color: #F1A208;
     font-size: 175%;font-family: 'Pinyon Script', cursive;
@@ -43,19 +54,17 @@ a:hover, .active {
     
 }
 
-.github{
-   max-width: 20%; 
-}
 
 footer {
     margin-bottom: 0px;
     padding: 0;
+    /* position: absolute; */
    
   
 }
 footer nav ul {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     list-style-type: none;
 }
 
@@ -66,4 +75,10 @@ footer li {
     max-width: 80%;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .aboutMe {
+      display: inline-block
+    }
+  }
 

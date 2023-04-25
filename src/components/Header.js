@@ -1,8 +1,8 @@
 import React from "react";
 
-function Navbar({ currentPage, handlePageChange }) {
+function Header({ currentPage, handlePageChange }) {
   return (
-    <header>
+   <>
       <nav className="navbar navbar-expand-lg">
         <a
           href="#MSaylor"
@@ -75,8 +75,8 @@ function Navbar({ currentPage, handlePageChange }) {
           </ul>
         </div>
       </nav>
-    </header>
+      </>
   );
 }
 
-export default Navbar;
+export default Header;
