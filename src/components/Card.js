@@ -1,16 +1,23 @@
 import React from "react";
 
-function Card() {
-    return (
-        <>
-        <div className="card" style="width: 18rem;">
-   <img className="card-img-top" src="..." alt="Card image cap"></img>
-  <div className="card-body">
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-</>
-    )
+function Card({ project }) {
+  const { name, githubLink, deployedLink, image, alt } = project;
+
+  return (
+    <div className="card col-lg-4">
+      <img className="card-img-top" src={image} alt={alt} />
+      <div className="card-body">
+        <h2 className="card-text">{name}</h2>
+        <a href={githubLink} alt={`${name} Github`}>
+          {name} Github
+        </a>
+        <br />
+        <a href={deployedLink} alt={`${name} deployed webpage`}>
+          {name} Deployed Application
+        </a>
+      </div>
+    </div>
+  );
 }
 
-export default Card
+export default Card;
