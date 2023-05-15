@@ -43,5 +43,13 @@ export const projectsData = [
       githubLink: "https://github.com/msaylorphila/msaylor-weatherapp-mod06",
       deployedLink: "https://msaylorphila.github.io/msaylor-weatherapp-mod06/",
     },
+    {
+      id: 6,
+      title: "Weather Dashboard",
+      image: require("../images/Brew-Buddies.png"),
+      githubLink: "https://github.com/miacias/brew-buddies",
+      deployedLink: "https://fierce-basin-42875.herokuapp.com/",
+    },
   ];
+
   
