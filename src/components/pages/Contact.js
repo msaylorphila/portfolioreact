@@ -24,13 +24,13 @@ function Contact() {
     emailjs
       .sendForm(
         "service_7027r7w",
-        "template_ysy46vk",
+        "template_upad10i",
         form.current,
         "nJWi2gcp7w5X2l878"
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(form.current);
           setEmail("");
           setName("");
           setMessage("");
@@ -50,7 +50,7 @@ function Contact() {
         <input
           type="text"
           className="form-control"
-          name={user_name}
+          name="user_name"
           value={user_name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -59,7 +59,7 @@ function Contact() {
         <label htmlFor="emailInput">Email address</label>
         <input
           type="email"
-          name={user_email}
+          name="user_email"
           className="form-control"
           value={user_email}
           onChange={(e) => setEmail(e.target.value)}
@@ -75,7 +75,7 @@ function Contact() {
         <label htmlFor="messageInput">Message</label>
         <input
           type="text"
-          name={message}
+          name="message"
           className="form-control"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
