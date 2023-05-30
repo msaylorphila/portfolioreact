@@ -50,6 +50,7 @@ function Contact() {
         <input
           type="text"
           className="form-control"
+          name={user_name}
           value={user_name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -58,6 +59,7 @@ function Contact() {
         <label htmlFor="emailInput">Email address</label>
         <input
           type="email"
+          name={user_email}
           className="form-control"
           value={user_email}
           onChange={(e) => setEmail(e.target.value)}
@@ -73,6 +75,7 @@ function Contact() {
         <label htmlFor="messageInput">Message</label>
         <input
           type="text"
+          name={message}
           className="form-control"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
