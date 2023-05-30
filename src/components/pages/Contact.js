@@ -3,8 +3,8 @@ import emailjs from "@emailjs/browser";
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [user_name, setName] = useState("");
+  const [user_email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errMessage, setErrMessage] = useState("");
   const form = useRef();
@@ -14,10 +14,10 @@ function Contact() {
     if (message.length < 20) {
       setErrMessage("Please enter a message longer than 20 characters");
       return;
-    } else if (!name.length || !email.length) {
+    } else if (!user_name.length || !user_email.length) {
       setErrMessage("Please fill out all fields");
       return;
-    } else if (!validateEmail(email)) {
+    } else if (!validateEmail(user_email)) {
       setErrMessage("Please enter a valid email address!");
       return;
     }
@@ -50,7 +50,7 @@ function Contact() {
         <input
           type="text"
           className="form-control"
-          value={name}
+          value={user_name}
           onChange={(e) => setName(e.target.value)}
         />
       </div>
@@ -59,7 +59,7 @@ function Contact() {
         <input
           type="email"
           className="form-control"
-          value={email}
+          value={user_email}
           onChange={(e) => setEmail(e.target.value)}
           id="emailInput"
           aria-describedby="emailHelp"
