@@ -22,12 +22,12 @@ function Contact() {
           .then((result) => {
               console.log(result.text);
               setEmail("");
-              setFullName("");
+              setName("");
               setMessage("");
           }, (error) => {
               console.log(error.text);
           });
-  };
+        }
         if(message.length < 20){
             setErrMessage("Please enter a message longer than 20 characters")
             return
@@ -43,7 +43,7 @@ function Contact() {
         setName('')
         setEmail('')
         setMessage('')
-    };
+      
 
     return(
         <form onSubmit={sendForm} className="w-50 contact-form">
@@ -65,5 +65,6 @@ function Contact() {
 </form>
     )
 }
+
 Contact.displayName = 'Contact'
 export default Contact
