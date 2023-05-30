@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useRef} from "react";
 import emailjs from "@emailjs/browser"
 import { validateEmail } from "../../utils/helpers";
 
@@ -7,7 +7,7 @@ function Contact() {
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
     const [errMessage, setErrMessage] = useState("")
-    emailjs.init(process.env.SECRET);
+    const form = useRef();
   
 
     const sendForm = (event) => {
