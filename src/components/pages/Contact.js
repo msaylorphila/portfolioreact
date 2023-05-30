@@ -44,7 +44,7 @@ function Contact() {
   };
 
   return (
-    <form onSubmit={sendForm} className="w-50 contact-form">
+    <form ref={form} onSubmit={sendForm} className="w-50 contact-form">
       <div className="form-group">
         <label htmlFor="nameInput">Name</label>
         <input
