@@ -13,6 +13,16 @@ function Contact() {
     const sendForm = (event) => {
         event.preventDefault()
         console.log("validating inputs")
+        if(message.length < 20){
+          setErrMessage("Please enter a message longer than 20 characters")
+          return
+      } else if (!name.length || !email.length) {
+        setErrMessage("Please fill out all fields")
+        return
+      } else if (!validateEmail(email)){
+        setErrMessage("Please enter a valid email address!")
+        return
+      }
         emailjs.sendForm(
           'service_7027r7w',
           'template_upad10i',
@@ -24,25 +34,12 @@ function Contact() {
               setEmail("");
               setName("");
               setMessage("");
+              setErrMessage("")
+              setErrMessage("Your message was sent!")
           }, (error) => {
               console.log(error.text);
           });
         }
-        if(message.length < 20){
-            setErrMessage("Please enter a message longer than 20 characters")
-            return
-        } else if (!name.length || !email.length) {
-          setErrMessage("Please fill out all fields")
-          return
-        } else if (!validateEmail(email)){
-          setErrMessage("Please enter a valid email address!")
-          return
-        }
-        setErrMessage("")
-        setErrMessage("Your message was sent!")
-        setName('')
-        setEmail('')
-        setMessage('')
       
 
     return(
