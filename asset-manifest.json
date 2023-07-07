@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolioreact/static/css/main.0fe52090.css",
-    "main.js": "/portfolioreact/static/js/main.4a740358.js",
+    "main.js": "/portfolioreact/static/js/main.dec6612d.js",
+    "static/media/bone2pick-v2.png": "/portfolioreact/static/media/bone2pick-v2.99190405d3986e7e69eb.png",
     "static/media/horiseon-screenshot.png": "/portfolioreact/static/media/horiseon-screenshot.54de603189f97d2a26be.png",
     "static/media/bone-screenshot.png": "/portfolioreact/static/media/bone-screenshot.842269410ef8e452773e.png",
     "static/media/vilca-screenshot.png": "/portfolioreact/static/media/vilca-screenshot.a9decfebf55ce8edd7ec.png",
@@ -15,10 +16,10 @@
     "static/media/leetcode.png": "/portfolioreact/static/media/leetcode.dfb398972da1a2af81a2.png",
     "index.html": "/portfolioreact/index.html",
     "main.0fe52090.css.map": "/portfolioreact/static/css/main.0fe52090.css.map",
-    "main.4a740358.js.map": "/portfolioreact/static/js/main.4a740358.js.map"
+    "main.dec6612d.js.map": "/portfolioreact/static/js/main.dec6612d.js.map"
   },
   "entrypoints": [
     "static/css/main.0fe52090.css",
-    "static/js/main.4a740358.js"
+    "static/js/main.dec6612d.js"
   ]
 }
