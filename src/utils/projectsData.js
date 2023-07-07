@@ -1,13 +1,13 @@
 import React from "react";
 
 export const projectsData = [
-    {
-      id: 1,
-      title: "A Bone to Pick",
-      image: require("../images/bone-screenshot.png"),
-      githubLink: "https://github.com/msaylorphila/A-Bone-To-Pick",
-      deployedLink: "https://msaylorphila.github.io/A-Bone-To-Pick/",
-    },
+  {
+    id: 1,
+    title: "A Bone to Pick Refactor MERN Stack",
+    image: require("../images/bone2pick-v2.png"),
+    githubLink: "https://github.com/msaylorphila/A-Bone-To-Pick-V.2",
+    deployedLink: "https://a-bone-to-pick.herokuapp.com/",
+  },
     {
       id: 2,
       title: "Brew Buddies",
@@ -49,6 +49,13 @@ export const projectsData = [
       image: require("../images/weather-screenshot.png"),
       githubLink: "https://github.com/msaylorphila/msaylor-weatherapp-mod06",
       deployedLink: "https://msaylorphila.github.io/msaylor-weatherapp-mod06/",
+    },
+    {
+      id: 8,
+      title: "A Bone to Pick Volume 1: HTML, Javascript, CSS",
+      image: require("../images/bone-screenshot.png"),
+      githubLink: "https://github.com/msaylorphila/A-Bone-To-Pick",
+      deployedLink: "https://msaylorphila.github.io/A-Bone-To-Pick/",
     },
    
   ];
